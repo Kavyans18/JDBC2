@@ -1,5 +1,7 @@
 //Sample text done on 24 September 2022 from practice
+// this is custome exception
 Class SalaryException extends Exceptions {
+	// get message method is overridden. It belongs to Throwable interface
 	public String getMessage() {
 		return "Unexpected error occured";
 	}
