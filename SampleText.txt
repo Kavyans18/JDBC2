@@ -3,7 +3,7 @@
 Class SalaryException extends Exceptions {
 	// get message method is overridden. It belongs to Throwable interface
 	public String getMessage() {
-		return "Unexpected error occured";
+		return "Please enter the valid salary";
 	}
 
 }
